@@ -1,0 +1,1 @@
+{'clf__estimator__min_child_weight': 40.296113202004, 'clf__estimator__max_depth': 50, 'clf__estimator__learning_rate': 0.1, 'clf__estimator__gamma': 5.274997063702618, 'clf__estimator__colsample_bytree': 0.774263682681127}

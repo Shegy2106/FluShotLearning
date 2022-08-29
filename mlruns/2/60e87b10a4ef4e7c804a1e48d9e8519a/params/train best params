@@ -1,0 +1,1 @@
+{'clf__estimator__reg_lambda': 100.0, 'clf__estimator__reg_alpha': 100.0, 'clf__estimator__min_child_weight': 10.0, 'clf__estimator__max_depth': 37, 'clf__estimator__max_delta_step': 0.0, 'clf__estimator__learning_rate': 0.1, 'clf__estimator__gamma': 0.001, 'clf__estimator__colsample_bytree': 0.08254041852680181, 'clf__estimator__colsample_bynode': 1.0}

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/8dc78443adb24c7eaf936ac193099175/artifacts
+end_time: 1660478974423
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 8dc78443adb24c7eaf936ac193099175
+run_uuid: 8dc78443adb24c7eaf936ac193099175
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1660478972235
+status: 3
+tags: []
+user_id: Darko Segvic
