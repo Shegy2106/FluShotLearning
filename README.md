@@ -12,6 +12,7 @@ git clone https://github.com/Shegy2106/FluShotLearning.git
 // for versioning use git add, git commit -m, git push, etc...
 
 // rewrite hooks/pre-commit.sample to pre-commit with these lines 
+
 #!/bin/sh
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace Best_with_fills.ipynb
 echo "pre-commit blabla"
@@ -19,6 +20,7 @@ git add .
 
 
 // config file should be like this
+
 [core]
 	repositoryformatversion = 0
 	filemode = false
@@ -40,6 +42,7 @@ git add .
     cmd = code --wait --diff $LOCAL $REMOTE
     
 // make new file info/attributes.txt with contents
+
 *.ipynb filter=remove-notebook-output
 
 ## Jupyter 
