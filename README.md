@@ -38,8 +38,8 @@ git add .
     tool = vscode
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
-4. make new file info/attributes.txt with contents
-
+    
+// make new file info/attributes.txt with contents
 *.ipynb filter=remove-notebook-output
 
 ## Jupyter 
