@@ -11,9 +11,9 @@ install VS Code with extensions - Jupyter, Jupyter Keymap, Git Graph, Pylance, P
 git clone https://github.com/Shegy2106/FluShotLearning.git
 ```
 
-// for versioning use git add, git commit -m, git push, etc...
+for versioning use git add, git commit -m, git push, etc...
 
-// rewrite hooks/pre-commit.sample to pre-commit with these lines 
+rewrite hooks/pre-commit.sample to pre-commit with these lines 
 
 ```
 #!/bin/sh
@@ -23,7 +23,7 @@ git add .
 ```
 
 
-// config file should be like this
+config file should be like this
 
 ```
 [core]
@@ -47,7 +47,7 @@ git add .
     cmd = code --wait --diff $LOCAL $REMOTE
 ```
     
-// make new file info/attributes.txt with contents
+make new file info/attributes.txt with contents
 
 ```
 *.ipynb filter=remove-notebook-output
@@ -60,8 +60,8 @@ jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' 
 ```
 
 ## MLFlow (must be started before notebook is running) 
-// open anaconda prompt, change directory path to project folder and execute
-// use linux commands (cd, ls)
+open anaconda prompt, change directory path to project folder and execute
+use linux commands (cd, ls)
 
 ```
 mlflow ui // (starts on localhost:5000)
