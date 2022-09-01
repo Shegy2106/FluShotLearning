@@ -3,6 +3,8 @@
 ## Anaconda 
 install anaconda (used for running git commands, jupyter server, installing packages, etc.)
 
+!important always navigate to your project folder because executing commands
+
 ## VS Code
 install VS Code with extensions - Jupyter, Jupyter Keymap, Git Graph, Pylance, Python
 
@@ -14,6 +16,7 @@ git clone https://github.com/Shegy2106/FluShotLearning.git
 for versioning use git add, git commit -m, git push, etc...
 
 rewrite hooks/pre-commit.sample to pre-commit with these lines 
+https://medium.com/somosfit/version-control-on-jupyter-notebooks-6b67a0cf12a3
 
 ```
 #!/bin/sh
